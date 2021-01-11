@@ -1,0 +1,64 @@
+0     rx_pi_all_nuclear_spins8841.9200001       
+   0     init_13c414       119.5040001       
+      0     polarize          60.000000 wait    0       1       
+      1     red_laserdelay    2.000000  wait    0       0       
+      2     wait_cts          1.000000  wait    0       0       
+      3     waitmwrf          0.500000  wait    0       0       
+      4     e_rabi            5.000000  wait    0       0       
+      5     waitmwrf          0.500000  wait    0       0       
+      6     13c414 mS-1       50.000000 sine    [-7.54446238][ 0.29660527][ 0.]   0       0       
+      7     waitmwrf          0.500000  wait    0       0       
+      8     _missing_smpls_   0.004000  wait    0       0       
+   1     ssr13c414         1809.600000225     
+      0     MW                2.500000  wait    0       0       
+      1                       0.160000  wait    1       0       
+      2     Laser             0.200000  wait    0       0       
+      3     Count             1.000000  wait    0       0       
+      4                       0.160000  wait    0       0       
+      5     MW                2.500000  wait    0       0       
+      6                       0.160000  wait    1       0       
+      7     Laser             0.200000  wait    0       0       
+      8     Count             1.000000  wait    0       0       
+      9                       0.160000  wait    0       0       
+      10    _missing_smpls_   0.002667  wait    0       0       
+   2     polarize          1.301333  1       
+      0     polarize          0.200000  wait    0       0       
+      1     laserdelay        0.100000  wait    0       0       
+      2     wait_cts          1.000000  wait    0       0       
+      3     _missing_smpls_   0.001333  wait    0       0       
+   3     polarize          63.504000 1       
+      0     polarize          60.000000 wait    0       1       
+      1     red_laserdelay    2.000000  wait    0       0       
+      2     wait_cts          1.000000  wait    0       0       
+      3     waitmwrf          0.500000  wait    0       0       
+      4     _missing_smpls_   0.004000  wait    0       0       
+   4     ssrcharge_state   800.3200001       
+      0     MW                0.000000  wait    0       0       
+      1                       0.160000  wait    1       0       
+      2     Orange_Laser      800.000000wait    0       0       
+      3     Count             0.000000  wait    0       0       
+      4                       0.160000  wait    0       0       
+      5     _missing_smpls_   0.000000  wait    0       0       
+   5     electron_rabi     0.549333  1       
+      0     e_rabi            0.045333  wait    0       0       
+      1     waitmw            0.500000  wait    0       0       
+      2     _missing_smpls_   0.004000  wait    0       0       
+   6     nuclear_rabi      15.114667 1       
+      0     13c414 ms-1       14.611917 sine    [-7.54446238][ 1.]   [ 0.]   0       0       
+      1     waitmwrf          0.500000  wait    0       0       
+      2     _missing_smpls_   0.002750  wait    0       0       
+   7     ssr13c414         6032.000000750     
+      0     MW                2.500000  wait    0       0       
+      1                       0.160000  wait    1       0       
+      2     Laser             0.200000  wait    0       0       
+      3     Count             1.000000  wait    0       0       
+      4                       0.160000  wait    0       0       
+      5     MW                2.500000  wait    0       0       
+      6                       0.160000  wait    1       0       
+      7     Laser             0.200000  wait    0       0       
+      8     Count             1.000000  wait    0       0       
+      9                       0.160000  wait    0       0       
+      10    _missing_smpls_   0.002667  wait    0       0       
+   8                       0.026667  1       
+      0     w_trig_step       0.000000  wait    0       0       
+      1     _missing_smpls_   0.026667  wait    0       0    
