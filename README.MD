@@ -3,7 +3,7 @@
 ## Folders: 
 * system_screenshots
     *  Screenshots of all our user interfaces
-        * Gated_counter: SSR (Single Shot Readout) data analyzation (Left: Timetrace (Counts per interval), Right: Histograms)  
+        * Gated_counter: SSR (Single Shot Readout) data analysis (Left: Timetrace (Counts per interval), Right: Histograms)  
         * Transition_tracker: Current frequency shifts relative to the base RF frequency in [MHz] to obtain the transition frequency between two nuclear spin levels dependent on a certain electron spin state. 
         * ... 
 * ssr_MW_wavefiles
@@ -17,7 +17,7 @@
 * meas_code_results
     * Measurement code (meas_code.py)
     * Results in data.hdf (Use for opening maybe: pandas 0.24.2 version)
-    * analyze_rotation_with_postselection.ipynb corresponding analyzation script
+    * analyze_rotation_with_postselection.ipynb corresponding analysis script
     
 
 ## Wavefile column description: 
@@ -47,6 +47,6 @@
 * Readout: 
     * Single Shot Readout on flipped state
 
-### Analyzation
+### analysis
 * Maybe pandas 0.24.2 and Python 2.7 is needed 
 * For SSR information check https://www.researchgate.net/publication/44902077_Single-Shot_Readout_of_a_Single_Nuclear_Spin
